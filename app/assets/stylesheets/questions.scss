@@ -1,0 +1,71 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: #B8BACF;
+}
+
+.container-home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.question {
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  border-radius: 5px;
+  box-shadow: 0 0 10px;
+  h3 {
+    text-align: center;
+    color: rgb(220,220,220);
+  }
+  h4 {
+    color: rgb(220,220,220);
+  }
+}
+
+.answer {
+  background: linear-gradient(90deg, rgba(1,125,165,1) 7%, rgba(2,0,36,1) 14%, rgba(0,212,255,1) 84%);
+  border-radius: 5px;
+  box-shadow: 0 0 10px;
+  h3 {
+    text-align: center;
+    color: rgb(220,220,220);
+  }
+  h4 {
+    color: rgb(220,220,220);
+  }
+}
+
+em {
+  color: rgb(220,220,220);
+}
+
+.form-send {
+  background: rgb (0,10,240);
+}
+
+#button {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 0 4px 0 4px;
+  text-decoration: none;
+  &:hover {
+    color: rgb(220,220,220);
+    border-radius: 4px 0 4px 0;
+  }
+}
+
+#title {
+  text-align: center;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 5px;
+  box-shadow: 0 0 2px;
+}
+#headder {
+  text-align: center;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 5px;
+  box-shadow: 0 0 2px;
+}
+
